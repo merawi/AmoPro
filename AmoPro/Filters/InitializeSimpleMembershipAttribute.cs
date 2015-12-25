@@ -25,11 +25,11 @@ namespace AmoPro.Filters
         {
             public SimpleMembershipInitializer()
             {
-                Database.SetInitializer<UsersContext>(null);
+                Database.SetInitializer<AmoDB>(null);
 
                 try
                 {
-                    using (var context = new UsersContext())
+                    using (var context = new AmoDB())
                     {
                         if (!context.Database.Exists())
                         {
@@ -38,7 +38,7 @@ namespace AmoPro.Filters
                         }
                     }
 
-                    WebSecurity.InitializeDatabaseConnection("DefaultConnection", "UserProfile", "UserId", "UserName", autoCreateTables: true);
+                    WebSecurity.InitializeDatabaseConnection("AmoPro_Test", "UserProfile", "UserId", "UserName", autoCreateTables: true);
                 }
                 catch (Exception ex)
                 {

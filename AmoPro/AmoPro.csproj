@@ -162,23 +162,26 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Core\CoreAreaRegistration.cs" />
-    <Compile Include="Areas\Core\Models\Account.cs" />
-    <Compile Include="Areas\Core\Models\Bank Account.cs" />
+    <Compile Include="Areas\Core\Models\FinancialAccount.cs" />
+    <Compile Include="Areas\Core\Models\BankAccount.cs" />
     <Compile Include="Areas\Core\Models\Wallet.cs" />
     <Compile Include="Areas\Monitoring\Models\Logger.cs" />
     <Compile Include="Areas\Monitoring\MonitoringAreaRegistration.cs" />
+    <Compile Include="Areas\WebUI\WebUIAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Areas\Core\Models\Customer.cs" />
     <Compile Include="Models\AmoDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AmoPro_Aux.csproj" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -237,6 +240,7 @@
     <Content Include="Global.asax" />
     <Content Include="Areas\Core\Views\Web.config" />
     <Content Include="Areas\Monitoring\Views\Web.config" />
+    <Content Include="Areas\WebUI\Views\Web.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -298,6 +302,9 @@
     <Folder Include="Areas\Core\Views\Shared\" />
     <Folder Include="Areas\Monitoring\Controllers\" />
     <Folder Include="Areas\Monitoring\Views\Shared\" />
+    <Folder Include="Areas\WebUI\Controllers\" />
+    <Folder Include="Areas\WebUI\Models\" />
+    <Folder Include="Areas\WebUI\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AmoPro.Areas.Core.Models
 {
-    public abstract class  Account
+    public abstract class  FinancialAccount
     {
         public long Id { get; set; }
         public string AccountNo { get; set; }

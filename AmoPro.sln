@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoPro", "AmoPro\AmoPro.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoPro.Tests", "AmoPro.Tests\AmoPro.Tests.csproj", "{E8AFDED0-11EB-4A74-B8D2-F2653732E34C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoPro_Aux", "AmoPro_Aux\AmoPro_Aux.csproj", "{8C0721BA-9F78-44DE-B0FA-C8A7A33F8BA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E8AFDED0-11EB-4A74-B8D2-F2653732E34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8AFDED0-11EB-4A74-B8D2-F2653732E34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8AFDED0-11EB-4A74-B8D2-F2653732E34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0721BA-9F78-44DE-B0FA-C8A7A33F8BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0721BA-9F78-44DE-B0FA-C8A7A33F8BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0721BA-9F78-44DE-B0FA-C8A7A33F8BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0721BA-9F78-44DE-B0FA-C8A7A33F8BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

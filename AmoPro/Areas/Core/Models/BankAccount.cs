@@ -7,7 +7,7 @@ using AmoPro.Models;
 
 namespace AmoPro.Areas.Core.Models
 {
-    public class BankAccount : Account
+    public class BankAccount : FinancialAccount
     {
         public string BankNo { get; set;}
         public Customer Owner { get; set; }

@@ -8,15 +8,15 @@ using System.Web.Security;
 
 namespace AmoPro.Models
 {
-    public class UsersContext : DbContext
+ /*   public class AmoDB : DbContext
     {
-        public UsersContext()
-            : base("DefaultConnection")
+        public AmoDB()
+            : base("AmoPro_Test")
         {
         }
 
         public DbSet<UserProfile> UserProfiles { get; set; }
-    }
+    }*/
 
     [Table("UserProfile")]
     public class UserProfile
